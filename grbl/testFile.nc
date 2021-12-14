@@ -1,10 +1,8 @@
-(tetsile)
+(1001)
 (T1  D=6.35 CR=0 - ZMIN=-14 - flat end mill)
 G90 G94
 G17
 G21
-G28 G91 Z0
-G90
 
 (2D Contour1)
 T1
@@ -117,9 +115,5 @@ Y-0.037
 G3 X53.81 Y-0.672 I0.635 J0 F2000
 G1 X55.08
 G0 Z15
-G28 G91 Z0
-G90
-G28 G91 X0 Y0
-G90
 M5
 M30
